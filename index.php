@@ -4,7 +4,7 @@
  *
  * @author     Greenkey <info@greenkey.ru>
  * @developer   Greenkey studio
- * @copyright  A copyright
+ * @copyright  (c) 2025 copyright
  * @license    GNU General Public License version 2 or later; see LICENSE.txt
  * @link       http://triumf40.ru
  */
@@ -49,13 +49,6 @@ tplTriumfHelper::setMetadata();
 		<jdoc:include type="modules" name="position-1" style="none" />
 	<?php endif; ?>
 </aside>
-
-<triumf-ter>
-	<jdoc:include type="modules" name="triumf-ter" style="none" />
-	<p>
-		&copy; <?php echo date('Y'); ?> <?php echo tplTriumfHelper::getSitename(); ?>
-	</p>
-</triumf-ter>
 
 <footer>
     <jdoc:include type="modules" name="footer" style="none" />

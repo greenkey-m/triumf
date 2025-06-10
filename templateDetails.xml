@@ -23,11 +23,10 @@
         <folder>language</folder>
     </files>
     <media destination="templates/site/triumf" folder="media">
-        <folder>js</folder>
         <folder>css</folder>
-        <folder>src</folder>
-        <folder>vendor</folder>
         <folder>images</folder>
+        <folder>js</folder>
+        <folder>node_modules</folder>
     </media>
 
     <positions>
